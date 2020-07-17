@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+document.write("<tr>");
+
+for (i = 2; i <= 9; i++) {
+
+	document.write("<td>"+i+"단</td>")
+
+}
+
+document.write("</tr>");
+
+   
+
+for (j = 1; j <= 9; j++) {
+
+	document.write("<tr>");
+
+	for(i = 2;i<=9;i++) {
+
+		document.write("<td>" + i + "*" + j + "=" + i*j + "</td>");
+
+	}
+
+	document.write("</tr>");
+
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
